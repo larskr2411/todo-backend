@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todo_list_items",
+  "info": {
+    "singularName": "todo-list-item",
+    "pluralName": "todo-list-items",
+    "displayName": "TodoListItem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "deadLine": {
+      "type": "datetime"
+    },
+    "note": {
+      "type": "text"
+    },
+    "done": {
+      "type": "boolean"
+    }
+  }
+}
